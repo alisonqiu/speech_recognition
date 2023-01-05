@@ -1,0 +1,46 @@
+PODS:
+  - AWAREFramework (1.14.1):
+    - AWAREFramework/Core (= 1.14.1)
+  - AWAREFramework/Core (1.14.1):
+    - LibTorch-Lite (~> 1.10.0)
+    - macros_blocks (~> 0.0.4)
+    - TPCircularBuffer (~> 1.6)
+    - TrueTime (~> 5.0.3)
+  - AWAREFramework/Microphone (1.14.1):
+    - AWAREFramework/Core
+  - LibTorch-Lite (1.10.0):
+    - LibTorch-Lite/Core (= 1.10.0)
+  - LibTorch-Lite/Core (1.10.0):
+    - LibTorch-Lite/Torch
+  - LibTorch-Lite/Torch (1.10.0)
+  - macros_blocks (0.0.4):
+    - macros_blocks/core (= 0.0.4)
+  - macros_blocks/core (0.0.4)
+  - TPCircularBuffer (1.6.1)
+  - TrueTime (5.0.3)
+
+DEPENDENCIES:
+  - AWAREFramework (from `/Users/alisonqiu/Downloads/swiftApps/AWAREFramework`)
+  - AWAREFramework/Microphone (from `/Users/alisonqiu/Downloads/swiftApps/AWAREFramework`)
+
+SPEC REPOS:
+  trunk:
+    - LibTorch-Lite
+    - macros_blocks
+    - TPCircularBuffer
+    - TrueTime
+
+EXTERNAL SOURCES:
+  AWAREFramework:
+    :path: "/Users/alisonqiu/Downloads/swiftApps/AWAREFramework"
+
+SPEC CHECKSUMS:
+  AWAREFramework: c4ac4efdc881c823688a4824217e0bff77d97ce3
+  LibTorch-Lite: 1e06028172ee5aecc12a01da6e6f3fe0bc3541c6
+  macros_blocks: cf3ff5810b798f462def9f1e3999817dc45cf2df
+  TPCircularBuffer: c13243556527551c4d320709c7b14a6d20cdc30a
+  TrueTime: b49551ffafb28a9dee04e51b226f42a416010842
+
+PODFILE CHECKSUM: 8b9027924369facd1b70e7b5493354b72979f773
+
+COCOAPODS: 1.11.3
